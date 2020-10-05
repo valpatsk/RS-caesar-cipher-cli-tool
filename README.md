@@ -7,10 +7,10 @@ How to run:
 1. All files are in RS-caesar-cipher-cli-tool folder.
 2. From console run: >node index.js [args]
 3. Possible arguments:
-   3.1. -a or --action "encode" or "decode". Required. The direction of transform process.
-   3.2. -s or --shift. Required. Only Int. Can be negative (it will change the direction of transform process too).
-   3.3. -i or --input. Optional. The file with text to encode/deocde.
-   3.4. -o or --optout. Optional. The file to save the encoded/decoded result. The result will be appended to existing file.
+   1. -a or --action "encode" or "decode". Required. The direction of transform process.
+   2. -s or --shift. Required. Only Int. Can be negative (it will change the direction of transform process too).
+   3. -i or --input. Optional. The file with text to encode/deocde.
+   4. -o or --optout. Optional. The file to save the encoded/decoded result. The result will be appended to existing file.
 
 Possible examples:
 
