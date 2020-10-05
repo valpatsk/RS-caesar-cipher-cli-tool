@@ -21,15 +21,3 @@ pipeline(
     }
 );
 
-/*
-Args.stream_in
-    .pipe(transformStreamObj)
-    .pipe(Args.stream_out)
-    .on('finish', function () { 
-        console.log('Finished.');
-    }).on('error', function (err) { 
-        console.log(err);
-    });
-*/
-//process.stderr and process.stdout
-
