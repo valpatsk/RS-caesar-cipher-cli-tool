@@ -1,0 +1,22 @@
+{
+  "name": "rs-caesar-cipher-cli-tool",
+  "version": "1.0.0",
+  "description": "RS-School Task #1",
+  "main": "caesar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valpatsk/RS-caesar-cipher-cli-tool.git"
+  },
+  "author": "Valery Patskevich <vapatsk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valpatsk/RS-caesar-cipher-cli-tool/issues"
+  },
+  "homepage": "https://github.com/valpatsk/RS-caesar-cipher-cli-tool#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
