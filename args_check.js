@@ -4,21 +4,21 @@ let argv = parseArgs(process.argv.slice(2));
 
 let action = argv.a || argv.action;
 if(!action){
-    console.errors.write('No action defined.\n');
+    console.error('No action defined.');
     process.exit(1);
 }
 if(action != 'encode' && action != 'decode'){
-    console.error.write('Wrong defined.\n');
+    console.error('Wrong action defined.');
     process.exit(1);
 }
 
 let shift = argv.s || argv.shift;
 if(!shift){
-    console.error.write('No shift defined.\n');
+    console.error('No shift defined.');
     process.exit(1);
 }
 if(!Number.isInteger(shift)){
-    console.error.write('Shift is not Integer.\n');
+    console.error('Shift is not Integer.');
     process.exit(1);
 }
 
