@@ -1,5 +1,12 @@
-let parseArgs = require('minimist');
-let argv = parseArgs(process.argv.slice(2));
-console.log(process.argv);
-console.log(process.argv.slice(2));
-console.log(argv.a);
+let Args= require('./args_check.js');
+
+
+
+let Caesar = require('./caesar.js');
+const { stream_in } = require('./args_check.js');
+let caesarObj = new Caesar();
+
+
+Args.stream_in.pipe(Args.stream_out);
+
+//process.stderr and process.stdout
